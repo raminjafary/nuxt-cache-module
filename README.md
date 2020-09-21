@@ -1,1 +1,3 @@
-# nuxt-process
+# nuxt-redis
+> Integrate redis with Nuxt
+

@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-process",
+  "version": "0.1.0",
+  "description": "Monitoring nuxt processes and resources",
+  "main": "lib/module.js",
+  "repository": "git@github.com:raminjafary/nuxt-redis.git",
+  "author": "<r.jafari@alibaba.ir>",
+  "license": "MIT",
+  "contributors": [
+    "Ramin Jafary <r.jafari@alibaba.ir>"
+  ],
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "nuxt example"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "consola": "^2.15.0",
+    "nuxt-edge": "^2.14.6-26673156.b9b55de6"
+  },
+  "dependencies": {}
+}
