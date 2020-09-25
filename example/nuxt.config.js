@@ -9,8 +9,13 @@ module.exports = {
       handler: require('../')
     }
   ],
-  nuxtCache: {
+  cache: {
     debug: true,
-    namespace: 'nuxtCache'
+    namespace: 'cache',
+    redis: {
+      port: 6379,
+      host: 'localhost',
+      ttl: 60
+    }
   }
 }

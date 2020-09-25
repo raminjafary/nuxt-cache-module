@@ -1,9 +1,12 @@
 <template>
-  <div>
-    IT WORKS
-  </div>
+  <div>IT WORKS</div>
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    this.$cache.log();
+  },
+};
 </script>
+  
