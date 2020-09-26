@@ -1,16 +1,22 @@
 <template>
   <div>
-    let's cache
+    <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
+  name: "unique",
+  serverCacheKey: (props) => props.items.id + "::" + props.items.last_updated,
   props: {
     options: {
       type: Object,
-      default: () => ({})
-    }
-  }
-}
+      default: () => ({}),
+    },
+    items: {
+      type: Object,
+      default: () => ({}),
+    },
+  },
+};
 </script>
