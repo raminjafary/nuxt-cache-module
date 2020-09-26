@@ -13,13 +13,17 @@
     "lib"
   ],
   "scripts": {
-    "dev": "nuxt example"
+    "dev": "nuxt example",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "lint:fix": "yarn lint --fix"
   },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
     "consola": "^2.15.0",
+    "eslint": "^7.9.0",
     "nuxt-edge": "^2.14.6-26673156.b9b55de6"
   },
   "dependencies": {

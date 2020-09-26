@@ -9,9 +9,8 @@
 
 <script>
 export default {
-  mounted() {
-    this.$cache.log();
-  },
-};
+  mounted () {
+    this.$cache.log()
+  }
+}
 </script>
-  
