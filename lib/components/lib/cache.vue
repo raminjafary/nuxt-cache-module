@@ -6,14 +6,14 @@
 
 <script>
 export default {
-  name: 'Unique',
-  serverCacheKey: props => props.items.id + '::' + props.items.last_updated,
+  name: 'Cache',
+  serverCacheKey: props => props.cache.id + '::' + props.cache.lastUpdated,
   props: {
     options: {
       type: Object,
       default: () => ({})
     },
-    items: {
+    cache: {
       type: Object,
       default: () => ({})
     }
