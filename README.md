@@ -1,4 +1,4 @@
-# Nuxt module for universal caching
-**Cache components and pages on the server and the client** 
+# Nuxt module for ssr cache
+**Cache components and pages on the server** 
 >Still in an early development stage
 
