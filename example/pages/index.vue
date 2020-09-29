@@ -1,9 +1,9 @@
 <template>
   <div>
-    <cache :cache="{ id: 'title', lastUpdated: '9/29/2020, 12:04:57 AM' }">
+    <cache :cache="{ id: 'title', lastUpdated: '2020-09-28T20:34:57.000Z' }">
       <Title />
     </cache>
-    <cache :cache="{ id: 'dummyText', lastUpdated: '9/29/2020, 12:02:36 AM' }">
+    <cache :cache="{ id: 'dummyText', lastUpdated: '2020-09-28T20:32:36.000Z' }">
       this is going to be cached..!
     </cache>
   </div>
