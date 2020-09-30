@@ -1,10 +1,13 @@
 <template>
   <div>
+    <nuxt-link to="/about">
+      about
+    </nuxt-link>
+    <nuxt-link to="/todo">
+      todo
+    </nuxt-link>
     <cache :cache="{ id: 'title', lastUpdated: '2020-09-28T20:34:57.000Z' }">
       <Title />
-    </cache>
-    <cache :cache="{ id: 'dummyText', lastUpdated: '2020-09-28T20:32:36.000Z' }">
-      this is going to be cached..!
     </cache>
   </div>
 </template>

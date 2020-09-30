@@ -1,5 +1,5 @@
 <template>
-  <h1>I am cached...</h1>
+  <h1>This is a title!</h1>
 </template>
 <script>
 export default {}
