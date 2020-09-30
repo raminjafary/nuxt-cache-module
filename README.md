@@ -2,6 +2,8 @@
 
 **Cache components and pages on the server** 
 
+> :warning: It is yet to be released. Therefore, some implementations are subject to change!
+
 ```js
 module.exports = {
   buildModules: [
@@ -13,6 +15,7 @@ module.exports = {
     debug: true,
     // Routes to be cached on the server. 
     // Another way in the future is by setting `cache` middleware on a certain page.
+    // Also patterns would be possible later.
     pages: [
       '/',
       '/about'
