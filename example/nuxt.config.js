@@ -11,6 +11,10 @@ module.exports = {
   ],
   cache: {
     debug: true,
+    pages: [
+      '/',
+      '/about'
+    ],
     namespace: 'cache',
     redis: {
       port: 6379,
