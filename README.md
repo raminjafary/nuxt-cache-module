@@ -1,4 +1,4 @@
-# Nuxt module for ssr cache
+# Nuxt Cache Module
 
 **Cache components and pages on the server** 
 
