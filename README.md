@@ -18,7 +18,7 @@ module.exports = {
       '/about'
     ],
     // You can inject whatever namespace on the root instance.
-    // for example by setting namespace to `cache`, it can be accessed by `app.$cache` or `this.$cache`
+    // for example by setting namespace to cache, it can be accessed by app.$cache or this.$cache
     namespace: 'cache',
     // Configure redis server
     redis: {
@@ -30,7 +30,7 @@ module.exports = {
 }
 ```
 
-Caching components is also possible with `cache` component. The default TTL is 60 seconds.
+Caching components is also possible with the cache component. The default TTL is 60 seconds.
 You can configure `ttl` in module option. A unique id and timestamp is needed to be used as cache key.
 
 ```vue
