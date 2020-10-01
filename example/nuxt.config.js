@@ -13,8 +13,9 @@ module.exports = {
     debug: true,
     cacheHeader: 'x-cache',
     pages: [
-      '/',
-      '/about'
+      /^\/$/,
+      /\/about/,
+      '/todo'
     ],
     namespace: 'cache',
     ttl: 60,
