@@ -11,15 +11,16 @@ module.exports = {
   ],
   cache: {
     debug: true,
+    cacheHeader: 'x-cache',
     pages: [
       '/',
       '/about'
     ],
     namespace: 'cache',
+    ttl: 60,
     redis: {
       port: 6379,
-      host: 'localhost',
-      ttl: 60
+      host: 'localhost'
     }
   }
 }
