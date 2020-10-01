@@ -13,21 +13,24 @@ module.exports = {
   cache: {
     // Enables logging config options in the browser with this.$cache.log()
     debug: true,
-    // Routes to be cached on the server. 
+    // Set cache header on response when it hits cache
+    cacheHeader: 'x-cache',
+    // Routes to be cached whether string or regexp
     // Another way in the future is by setting `cache` middleware on a certain page.
-    // Also patterns would be possible later.
     pages: [
-      '/',
-      '/about'
+      /^\/$/,
+      /\/about/,
+      '/todo'
     ],
     // You can inject whatever namespace on the root instance.
     // for example by setting namespace to cache, it can be accessed by app.$cache or this.$cache
     namespace: 'cache',
+    // Set time to live
+    ttl: 60,
     // Configure redis server
     redis: {
       port: 6379,
       host: 'localhost',
-      ttl: 60
     }
   }
 }
