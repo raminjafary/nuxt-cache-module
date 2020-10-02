@@ -14,7 +14,6 @@ module.exports = {
     // Set cache header on response when it hits cache.
     cacheHeader: 'x-cache',
     // Routes to be cached whether string or regexp.
-    // Another way in the future is by setting `cache` middleware on a certain page.
     pages: [
       /^\/$/,
       /\/about/,
