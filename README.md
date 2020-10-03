@@ -2,8 +2,6 @@
 
 **Cache components and pages on the server** 
 
-> :warning: It is yet to be released. Therefore, some implementations are subject to change!
-
 ```js
 module.exports = {
   buildModules: [
@@ -11,19 +9,18 @@ module.exports = {
   ],
   // Module options
   cache: {
-    // Enables logging config options in the browser with this.$cache.log()
+    // Enables logging config options in the browser with this.$cache.log().
     debug: true,
-    // Set cache header on response when it hits cache
+    // Set cache header on response when it hits cache.
     cacheHeader: 'x-cache',
-    // Routes to be cached whether string or regexp
-    // Another way in the future is by setting `cache` middleware on a certain page.
+    // Routes to be cached whether string or regexp.
     pages: [
       /^\/$/,
       /\/about/,
       '/todo'
     ],
     // You can inject whatever namespace on the root instance.
-    // for example by setting namespace to cache, it can be accessed by app.$cache or this.$cache
+    // For example by setting namespace to cache, it can be accessed by app.$cache or this.$cache.
     namespace: 'cache',
     // Set time to live
     ttl: 60,
