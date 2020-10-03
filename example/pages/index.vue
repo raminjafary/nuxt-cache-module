@@ -6,7 +6,7 @@
     <nuxt-link to="/todo">
       todo
     </nuxt-link>
-    <cache :cache="{ id: 'title', lastUpdated: new Date().toISOString() }">
+    <cache :cache="{ id: 'title', lastUpdated: '2020-10-03T17:55:53.793Z' }">
       <Title />
     </cache>
   </div>
