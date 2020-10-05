@@ -33,11 +33,11 @@ module.exports = {
 }
 ```
 
-Caching components is also possible with the cache component. The default TTL is 60 seconds.
-You can configure `ttl` in module option. A unique id and timestamp is needed to be used as cache key.
+Components caching is also possible with the `cache` component. The default TTL is 60 seconds.
+You can configure `ttl` in module option. A unique `id` and `timestamp` is used as cache key.
 
 ```vue
-<cache :cache="{ id: 'title', lastUpdated: '2020-09-28T20:34:57.000Z' }">
+<cache :cache="{ id: 'title', lastUpdated: '1601923810954' }">
   <div>
     Hello World!
   <div>
