@@ -9,8 +9,6 @@ module.exports = {
   ],
   // Module options
   cache: {
-    // Enables logging config options in the browser with this.$cache.log().
-    debug: true,
     // Set cache header on response when it hits cache.
     cacheHeader: 'x-cache',
     // Routes to be cached whether string or regexp.
@@ -19,9 +17,6 @@ module.exports = {
       /\/about/,
       '/todo'
     ],
-    // You can inject whatever namespace on the root instance.
-    // For example by setting namespace to cache, it can be accessed by app.$cache or this.$cache.
-    namespace: 'cache',
     // Set time to live
     ttl: 60,
     // Configure redis server
@@ -44,7 +39,7 @@ You can configure `ttl` in module option. A unique `id` and `timestamp` is used 
 </cache>
 ```
 
-:warning: Note you should **NOT** cache a component when:
+Note: you should **NOT** cache a component when:
 
 - It has child components that may rely on global state.
 - It has child components that produces side effects on the render context.
