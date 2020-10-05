@@ -6,7 +6,7 @@
     <nuxt-link to="/todo">
       todo
     </nuxt-link>
-    <cache :cache="{ id: 'title', lastUpdated: '2020-10-03T17:55:53.793Z' }">
+    <cache :cache="{ id: 'title', lastUpdated: '1601928698704' }">
       <Title />
     </cache>
   </div>
@@ -17,9 +17,6 @@ import Title from '../components/title.vue'
 export default {
   components: {
     Title
-  },
-  mounted () {
-    this.$cache.log()
   }
 }
 </script>

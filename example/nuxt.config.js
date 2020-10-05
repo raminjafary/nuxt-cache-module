@@ -10,7 +10,6 @@ module.exports = {
     }
   ],
   cache: {
-    debug: true,
     cacheHeader: 'x-cache',
     pages: [
       /^\/$/,
