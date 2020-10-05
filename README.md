@@ -43,3 +43,11 @@ You can configure `ttl` in module option. A unique id and timestamp is needed to
   <div>
 </cache>
 ```
+
+:warning: Note you should **NOT** cache a component when:
+
+- It has child components that may rely on global state.
+- It has child components that produces side effects on the render context.
+- You don't have user-specific content and you ppt for page level caching.
+
+For more information see [When to use component caching](https://ssr.vuejs.org/guide/caching.html#component-level-caching).
