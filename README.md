@@ -51,3 +51,7 @@ You can configure `ttl` in module option. A unique id and timestamp is needed to
 - You don't have user-specific content and you opt for page level caching.
 
 For more information see [When to use component caching](https://ssr.vuejs.org/guide/caching.html#component-level-caching).
+
+## License
+
+MIT
