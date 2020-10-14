@@ -1,6 +1,8 @@
 # Nuxt Cache Module
 
-**Cache components and pages on the server** 
+<a href="https://www.npmjs.com/package/@raminjafary/nuxt-cache-module"><img src="https://badgen.net/npm/v/@raminjafary/nuxt-cache-module" alt="Version"></a>
+
+> Cache components and pages on the server
 
 ## Installation
 
