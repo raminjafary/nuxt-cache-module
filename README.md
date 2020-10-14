@@ -2,6 +2,13 @@
 
 **Cache components and pages on the server** 
 
+## Installation
+
+yarn add @raminjafary/nuxt-cache-module
+# or
+npm i @raminjafary/nuxt-cache-module
+
+
 ```js
 module.exports = {
   buildModules: [
