@@ -1,13 +1,16 @@
 {
-  "name": "nuxt-cache",
+  "name": "@raminjafary/nuxt-cache-module",
   "version": "0.1.0",
-  "description": "Nuxt universal caching module",
+  "description": "Cache components and pages on the server",
   "main": "lib/module.js",
-  "repository": "git@github.com:raminjafary/nuxt-redis.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raminjafary/nuxt-cache-module"
+  },
   "author": "<r.jafari@alibaba.ir>",
   "license": "MIT",
   "contributors": [
-    "Ramin Jafary <r.jafari@alibaba.ir>"
+    "Ramin Jafary <raminjafary1993@gmail.com>"
   ],
   "files": [
     "lib"
