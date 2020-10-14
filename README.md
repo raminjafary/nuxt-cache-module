@@ -4,9 +4,11 @@
 
 ## Installation
 
+```bash
 yarn add @raminjafary/nuxt-cache-module
 # or
 npm i @raminjafary/nuxt-cache-module
+```
 
 
 ```js
