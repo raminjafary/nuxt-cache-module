@@ -16,7 +16,7 @@ npm i @raminjafary/nuxt-cache-module
 ```js
 module.exports = {
   buildModules: [
-    'nuxt-cache-module'
+    '@raminjafary/nuxt-cache-module'
   ],
   // Module options
   cache: {
