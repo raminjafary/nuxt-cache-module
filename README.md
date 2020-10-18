@@ -12,6 +12,7 @@ yarn add @raminjafary/nuxt-cache-module
 npm i @raminjafary/nuxt-cache-module
 ```
 
+## Usage
 
 ```js
 module.exports = {
