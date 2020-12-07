@@ -29,7 +29,7 @@
     "@nuxtjs/eslint-config": "^5.0.0",
     "consola": "^2.15.0",
     "eslint": "^7.15.0",
-    "husky": "^4.3.4",
+    "husky": "^4.3.5",
     "lint-staged": "^10.5.3",
     "nuxt-edge": "^2.14.6-26677475.b9b55de6"
   },
