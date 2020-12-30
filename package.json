@@ -31,7 +31,7 @@
     "eslint": "^7.16.0",
     "husky": "^4.3.6",
     "lint-staged": "^10.5.3",
-    "nuxt-edge": "^2.15.0-26818605.b2e38f5c"
+    "nuxt-edge": "^2.15.0-26821488.fd0352cc"
   },
   "dependencies": {
     "ioredis": "^4.19.4"
