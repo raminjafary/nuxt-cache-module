@@ -28,10 +28,10 @@
     "@commitlint/config-conventional": "^11.0.0",
     "@nuxtjs/eslint-config": "^5.0.0",
     "consola": "^2.15.0",
-    "eslint": "^7.17.0",
-    "husky": "^4.3.7",
+    "eslint": "^7.18.0",
+    "husky": "^4.3.8",
     "lint-staged": "^10.5.3",
-    "nuxt-edge": "^2.15.0-26844550.78ba9945"
+    "nuxt-edge": "^2.15.0-26848868.eae3acb7"
   },
   "dependencies": {
     "ioredis": "^4.19.4"
