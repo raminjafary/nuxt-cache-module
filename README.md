@@ -60,4 +60,4 @@ For more information see [When to use component caching](https://ssr.vuejs.org/g
 
 ## License
 
-MIT
+[MIT](./LICENSE)
