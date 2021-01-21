@@ -58,6 +58,12 @@ Note: you should **NOT** cache a component when:
 
 For more information see [When to use component caching](https://ssr.vuejs.org/guide/caching.html#component-level-caching).
 
+## Development
+- Clone this repository.
+- Install dependencies using `yarn install` or `npm install`.
+- Start development server using `npm run dev` or `yarn dev`.
+- Follow the [Conventional Commits Specification](https://conventionalcommits.org) for opening PRs.
+
 ## License
 
 [MIT](./LICENSE)
