@@ -29,10 +29,10 @@
     "@commitlint/config-conventional": "^11.0.0",
     "@nuxtjs/eslint-config": "^5.0.0",
     "consola": "^2.15.3",
-    "eslint": "^7.19.0",
+    "eslint": "^7.20.0",
     "husky": "^5.0.9",
     "lint-staged": "^10.5.4",
-    "nuxt-edge": "^2.15.0-26883395.04646c5e",
+    "nuxt-edge": "^2.15.0-26886273.e277bb28",
     "standard-version": "^9.1.0"
   },
   "dependencies": {
