@@ -30,7 +30,8 @@ module.exports = {
     ],
     // Set time to live
     ttl: 60,
-    // Configure redis server
+    // Configure Redis
+    // All Redis options are supported
     redis: {
       port: 6379,
       host: 'localhost',
