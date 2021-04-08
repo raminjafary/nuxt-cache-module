@@ -36,6 +36,6 @@
     "standard-version": "^9.2.0"
   },
   "dependencies": {
-    "ioredis": "^4.25.0"
+    "ioredis": "^4.26.0"
   }
 }
