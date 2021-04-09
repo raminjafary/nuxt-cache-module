@@ -29,7 +29,7 @@
     "@commitlint/config-conventional": "^12.1.1",
     "@nuxtjs/eslint-config": "^6.0.0",
     "consola": "^2.15.3",
-    "eslint": "^7.23.0",
+    "eslint": "^7.24.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
     "nuxt-edge": "^2.15.0-26889155.dd0eea40",
