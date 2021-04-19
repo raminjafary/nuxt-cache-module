@@ -32,7 +32,7 @@
     "eslint": "^7.24.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
-    "nuxt-edge": "^2.16.0-26974099.6dc3641e",
+    "nuxt-edge": "^2.16.0-26979859",
     "standard-version": "^9.2.0"
   },
   "dependencies": {
