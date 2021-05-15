@@ -25,17 +25,17 @@
     "access": "public"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.1.1",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@nuxtjs/eslint-config": "^6.0.0",
     "consola": "^2.15.3",
-    "eslint": "^7.24.0",
+    "eslint": "^7.26.0",
     "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
-    "nuxt-edge": "^2.16.0-26974099.6dc3641e",
-    "standard-version": "^9.2.0"
+    "lint-staged": "^11.0.0",
+    "nuxt-edge": "^2.16.0-27017293.a53fd32d",
+    "standard-version": "^9.3.0"
   },
   "dependencies": {
-    "ioredis": "^4.26.0"
+    "ioredis": "^4.27.2"
   }
 }
