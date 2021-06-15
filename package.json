@@ -27,15 +27,15 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-config": "^6.0.1",
     "consola": "^2.15.3",
-    "eslint": "^7.26.0",
+    "eslint": "^7.28.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
-    "nuxt-edge": "^2.16.0-27017293.a53fd32d",
+    "nuxt-edge": "^2.16.0-27061934.35c6ac41",
     "standard-version": "^9.3.0"
   },
   "dependencies": {
-    "ioredis": "^4.27.2"
+    "ioredis": "^4.27.6"
   }
 }
