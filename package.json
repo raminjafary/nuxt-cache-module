@@ -30,7 +30,7 @@
     "@nuxtjs/eslint-config": "^6.0.1",
     "consola": "^2.15.3",
     "eslint": "^7.29.0",
-    "husky": "^6.0.0",
+    "husky": "^7.0.0",
     "lint-staged": "^11.0.0",
     "nuxt-edge": "^2.16.0-27070577.35c6ac41",
     "standard-version": "^9.3.0"
