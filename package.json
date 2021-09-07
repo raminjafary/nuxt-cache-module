@@ -29,13 +29,13 @@
     "@commitlint/config-conventional": "^13.0.0",
     "@nuxtjs/eslint-config": "^6.0.1",
     "consola": "^2.15.3",
-    "eslint": "^7.30.0",
-    "husky": "^7.0.1",
-    "lint-staged": "^11.0.1",
-    "nuxt-edge": "^2.16.0-27103694.a3b2fd86",
-    "standard-version": "^9.3.0"
+    "eslint": "^7.32.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "nuxt-edge": "^2.16.0-27172816.2ef05373",
+    "standard-version": "^9.3.1"
   },
   "dependencies": {
-    "ioredis": "^4.27.6"
+    "ioredis": "^4.27.9"
   }
 }
