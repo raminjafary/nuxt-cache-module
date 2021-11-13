@@ -31,7 +31,7 @@
     "consola": "^2.15.3",
     "eslint": "^8.0.1",
     "husky": "^7.0.4",
-    "lint-staged": "^11.2.3",
+    "lint-staged": "^12.0.0",
     "nuxt-edge": "^2.16.0-27226092.034b9901",
     "standard-version": "^9.3.2"
   },
