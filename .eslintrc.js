@@ -8,6 +8,7 @@ module.exports = {
     'no-console': 0,
     'no-template-curly-in-string': 0,
     'no-dupe-class-members': 0,
-    'import/order': 0
+    'import/order': 0,
+    'vue/multi-word-component-names': 0
   }
 }

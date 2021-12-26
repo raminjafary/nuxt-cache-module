@@ -16,6 +16,7 @@
     "lib"
   ],
   "scripts": {
+    "prepare": "husky install",
     "dev": "nuxt example",
     "lint": "eslint --ext .ts,.js,.vue .",
     "lint:fix": "yarn lint --fix",
@@ -25,17 +26,17 @@
     "access": "public"
   },
   "devDependencies": {
-    "@commitlint/cli": "^14.0.0",
-    "@commitlint/config-conventional": "^14.0.0",
-    "@nuxtjs/eslint-config": "^7.0.0",
+    "@commitlint/cli": "^16.0.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@nuxtjs/eslint-config": "^8.0.0",
     "consola": "^2.15.3",
-    "eslint": "^8.0.1",
+    "eslint": "^8.5.0",
     "husky": "^7.0.4",
-    "lint-staged": "^11.2.3",
-    "nuxt-edge": "^2.16.0-27226092.034b9901",
+    "lint-staged": "^12.1.4",
+    "nuxt-edge": "^2.16.0-27341297.777a4b7f",
     "standard-version": "^9.3.2"
   },
   "dependencies": {
-    "ioredis": "^4.28.0"
+    "ioredis": "^4.28.2"
   }
 }
