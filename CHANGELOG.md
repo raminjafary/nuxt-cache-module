@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/raminjafary/nuxt-cache-module/compare/v0.1.5...v0.1.6) (2021-12-26)
+
+
+### Features
+
+* update dependencies ([a8d4474](https://github.com/raminjafary/nuxt-cache-module/commit/a8d4474d3125db5cb53d4e481e3c1160f6b4d5cc))
+
 ### [0.1.5](https://github.com/raminjafary/nuxt-cache-module/compare/v0.1.3...v0.1.5) (2021-07-14)
 
 
