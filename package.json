@@ -28,7 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^16.0.0",
     "@commitlint/config-conventional": "^16.0.0",
-    "@nuxtjs/eslint-config": "^8.0.0",
+    "@nuxtjs/eslint-config": "^9.0.0",
     "consola": "^2.15.3",
     "eslint": "^8.5.0",
     "husky": "^7.0.4",
