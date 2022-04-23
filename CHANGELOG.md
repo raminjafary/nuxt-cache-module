@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/raminjafary/nuxt-cache-module/compare/v0.1.6...v0.1.7) (2022-04-23)
+
+
+### Features
+
+* bump ioredis and dev dependencies versions ([7cdefcb](https://github.com/raminjafary/nuxt-cache-module/commit/7cdefcb274ee6e5dc233e1c191322a58128b7221))
+
 ### [0.1.6](https://github.com/raminjafary/nuxt-cache-module/compare/v0.1.5...v0.1.6) (2021-12-26)
 
 
